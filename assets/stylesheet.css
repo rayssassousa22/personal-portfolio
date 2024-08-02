@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(247, 246, 246);
+    margin: 0;
+    font-family: raleway;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(/assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: kanit;
+    src: url(/assets/fonts/Kanit-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'kanit thin';
+    src: url(/assets/fonts/Kanit-Light.ttf);
+}
+
+header{
+    padding: 2rem 0;
+    position: sticky;
+}
+
+.arrange-content {
+    background-color: white;
+    margin: 0 20rem;
+    height: 100vh;
+    border: .5px solid rgb(247, 246, 246);
+}
+
+.align-header-text{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: 2px -1px 6px rgba(128, 128, 128, .5);
+    border-radius: 10px;
+    margin-left: 25rem;
+}
+
+.align-header-text li{
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+.align-header-text li:hover{
+    color: purple;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.header-display{
+    display: flex;
+    justify-content: space-around;
+}
+
+#dark-theme{
+    padding: .5rem 1rem;
+    box-shadow: 2px -1px 6px rgba(128, 128, 128, .5);
+    border-radius: 30px;
+    font-family: raleway;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border: 0;
+}
+
+#dark-theme:hover{
+    color: rgba(0, 0, 0, 1);
+    transition: .2s linear;
+    cursor: pointer;
+}
+.content-none{
+    height: 5vh;
+}
+
+.profile-picture{
+    height: 10vh;
+}
+
+.profile-picture #profile-pic{
+    background: url(/assets/images/WhatsApp\ Image\ 2024-07-30\ at\ 13.55.40.jpeg);
+    width: 7%;
+    height: 90%;
+    border-radius: 80%;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10rem;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.initial-content{
+    width: 70%;
+    color: rgb(27, 27, 27);
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: kanit;
+    position: relative;
+}
+
+.initial-content p{
+    font-family: 'kanit thin';
+    font-weight: normal;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.initial-content h1{
+    margin: 0;
+}
+
+.social-media{
+    height: fit-content;
+}
+
+.social-media img {
+    width: 30px;
+    margin-right: 1rem;
+    opacity: .6;
+}
+
+.social-media img:hover{
+    cursor: pointer;
+    opacity: .8;
+}
