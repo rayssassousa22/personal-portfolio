@@ -99,3 +99,112 @@ header p{
 .contact-info #social-media #insta{
     width: 50px;
 }
+
+.profile{
+    height: 60vh;
+    background-color: rgb(38, 35, 52);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.arrange-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#centralize-image{
+    width: 300px;
+    height: 300px;
+}
+
+#centralize-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-media-arrange{
+    margin: 1.5rem 0;
+    width: fit-content;
+    padding: 1.5rem 5rem;
+    background: linear-gradient(90deg, rgb(223, 119, 255), rgb(85, 0, 85));
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-arrange img{
+    height: 40px;
+    margin-right: 1.5rem;
+}
+
+.social-media-arrange img:hover{
+    cursor: pointer;
+}
+
+.social-media-arrange img:first-child{
+    height: 50px;
+}
+
+.personal-info{
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal-info p{
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.text-ident{
+    text-indent: 2rem;
+}
+
+.personal-info #yellow{
+    color: yellow;
+    font-weight: 600;
+}
+
+.personal-info #purple{
+    color: paleturquoise;
+}
+
+.arrange-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#my-work-content{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#my-work h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+#my-work #sans-serif{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.divisor{
+    height: 5px;
+    width: 50%;
+    background-color: purple;
+}
