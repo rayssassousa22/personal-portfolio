@@ -72,6 +72,7 @@ header p{
     display: flex;
     color: white;
     width: 70%;
+    margin-top: 5rem;
 }
 
 .contact-me #contact, .contact-me #social-media{
@@ -410,4 +411,8 @@ input:focus, textarea:focus{
     border-radius: 30px;
     background-color: white;
     padding: 1rem 2rem;
+}
+
+.contact-form button:hover{
+    cursor: pointer;
 }
