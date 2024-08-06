@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+*, a{
+    font-family: raleway;
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(/assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: caveat;
+    src: url(/assets/fonts/Caveat-VariableFont_wght.ttf);
+}
+
+header{
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+header p{
+    margin: 0;
+    font-family: caveat;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.navigation-links{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-links li{
+    list-style: none;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navigation-links li:hover{
+    color:darkcyan;
+}
