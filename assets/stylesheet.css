@@ -384,3 +384,73 @@ footer #destaque{
     color: black;
     cursor: pointer;
 }
+
+.intro-section{
+    height: fit-content;
+    display: flex;
+    padding: 5rem 0;
+}
+
+.organize-page{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.organize-page h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    margin-bottom: 10rem;
+}
+
+#bold-destaque{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.agrupacao-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text{
+    width: 30%;
+    text-align: left;
+}
+
+.about-text h4{
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    font-family: monospace;
+    font-weight: normal;
+}
+
+.about-text p{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    font-family: monospace;
+}
+
+.personal-info-label h2{
+    font-family: monospace;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.personal-info{
+    width: 20%;
+    margin-right: 5rem;
+}
+
+.personal-info h3{
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 3rem;
+}
