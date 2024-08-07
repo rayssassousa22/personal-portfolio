@@ -1,10 +1,12 @@
 body{
     margin: 0;
-    background-color: black;
+    background-color: white;
+    width: 100%;
 }
 
-*{
+*, p{
     font-family: raleway;
+    line-height: 1.5rem;
 }
 
 @font-face {
@@ -25,7 +27,7 @@ header{
     align-items: center;
     font-size: 1.5rem;
     position: static;
-    width: 100vw;
+    width: 100%;
 }
 
 header p{
@@ -59,7 +61,7 @@ header a{
 }
 
 .moving-page{
-    height: 95vh;
+    height: 90vh;
     display: flex;
     background: url('/assets/images/0cc78d97-bbef-4620-9116-bb9b7b598322.jpg');
     background-size: contain;
@@ -114,4 +116,87 @@ main ul li{
     font-size: 1rem;
     letter-spacing: 5px;
     font-weight: bold;
+}
+
+.about{
+    height: 70vh;
+    width: 100%;
+}
+
+.organize-about-content{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.organize-profile-photo{
+    display: flex;
+    
+}
+
+.profile-outline{
+    width: 350px;
+    height: 450px;
+    border: 15px solid rgba(210, 105, 30, 0.7);
+    position: relative;
+}
+
+.profile-pic{
+    width: 365px;
+    height: 465px;
+    background: url('/assets/images/profile-pic.png');
+    background-size: cover;
+    margin-left: 3rem;
+    margin-top: -3rem;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+}
+
+.organize-text-about{
+    width: 40%;
+    margin-left: 10rem;
+    color: rgba(210, 105, 30, 0.7);
+}
+
+.organize-text-about h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.organize-text-about p{
+    width: 75%;
+    font-size: 1.2rem;
+    color: rgba(150, 116, 91, 0.5);
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+    column-gap: 5rem;
+}
+
+.agroup-text-service{
+    width: 80%;
+}
+
+.agroup-text-service p{
+    color: rgba(150, 116, 91, 0.8);
+}
+
+.agroup-text-service h3{
+    width: 60%;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.divisor{
+    width: 30%;
+    height: 5px;
+    background-color: chocolate;
 }
