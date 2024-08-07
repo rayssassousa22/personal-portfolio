@@ -421,7 +421,7 @@ footer #destaque{
     text-align: left;
 }
 
-.about-text h4{
+.about-text h2{
     font-size: 3rem;
     margin: 0;
     margin-bottom: 2rem;
@@ -447,10 +447,11 @@ footer #destaque{
     margin-right: 5rem;
 }
 
-.personal-info h3{
+.personal-info p{
     font-weight: normal;
     font-family: monospace;
     font-size: 1.2rem;
     text-align: left;
     margin-left: 3rem;
+    margin-bottom: 1rem;
 }
