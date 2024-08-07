@@ -3,10 +3,8 @@ body{
     background-color: black;
 }
 
-*, a{
+*{
     font-family: raleway;
-    text-decoration: none;
-    color: black;
 }
 
 @font-face {
@@ -26,7 +24,7 @@ header{
     justify-content: space-around;
     align-items: center;
     font-size: 1.5rem;
-    position: fixed;
+    position: static;
     width: 100vw;
 }
 
@@ -35,6 +33,11 @@ header p{
     font-family: caveat;
     font-weight: bold;
     color: darkcyan;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
 }
 
 .navigation-links{
@@ -53,4 +56,62 @@ header p{
 
 .navigation-links li:hover{
     color:darkcyan;
+}
+
+.moving-page{
+    height: 95vh;
+    display: flex;
+    background: url('/assets/images/0cc78d97-bbef-4620-9116-bb9b7b598322.jpg');
+    background-size: contain;
+}
+
+.social-media-links a li img {
+    width: 50px;
+}
+
+main h1, main p, main ul{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+main ul {
+    display: flex;
+}
+main ul li{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.grid-01-align, .grid-02-align{
+    height: 100%;
+    width: 100%;
+}
+
+.grid-01-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-t-grid{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.align-t-grid h1, .align-t-grid p{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.align-t-grid h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.align-t-grid p{
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: bold;
 }
