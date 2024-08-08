@@ -34,7 +34,7 @@ header p{
     margin: 0;
     font-family: caveat;
     font-weight: bold;
-    color: darkcyan;
+    color: chocolate;
 }
 
 header a{
@@ -57,7 +57,7 @@ header a{
 }
 
 .navigation-links li:hover{
-    color:darkcyan;
+    color:chocolate;
 }
 
 .moving-page{
@@ -410,7 +410,7 @@ footer #destaque{
     font-weight: bold;
 }
 
-.agrupacao-info{
+.agrupacao-info, .my-resume{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -454,4 +454,79 @@ footer #destaque{
     text-align: left;
     margin-left: 3rem;
     margin-bottom: 1rem;
+}
+
+.my-resume{
+    flex-direction: column;
+}
+
+.my-resume h2{
+    font-size: 3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 10rem;
+}
+
+.resume-timeline{
+    text-align: center;
+}
+
+.resume-timeline h3{
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.experience-left, .experience-right{
+    text-align: right;
+    margin: 5rem 0;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.experience-card{
+    display: flex;
+}
+
+.experience-left, .blank-space, .experience-right{
+    width: 100%;
+}
+
+.experience-left{
+    padding-right: 10rem;
+}
+
+.experience-right{
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 10rem;
+}
+
+.experience-left h4, .experience-right h4{
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.experience-left h4, .experience-left p, .experience-right h4, .experience-right p{
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+.experience-left h4 + p, .experience-right h4 + p{
+    font-size: .925rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: rgba(210, 105, 30, 0.7);
+}
+
+.experience-left p + p, .experience-right p + p{
+    width: 80%;
 }
