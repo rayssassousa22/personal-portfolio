@@ -498,14 +498,39 @@ footer #destaque{
     width: 100%;
 }
 
+.experience-left + .blank-space{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blank-space img {
+    width: 30px;
+    background-color: chocolate;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.blank-space{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-left: 5rem;
+}
+
 .experience-left{
-    padding-right: 10rem;
+    padding-right: 2rem;
+}
+
+.experience-left + .blank-space{
+    margin: 0;
+    margin-right: 7rem;
 }
 
 .experience-right{
     text-align: left;
     align-items: flex-start;
-    margin-left: 10rem;
+    padding-left: 2rem;
 }
 
 .experience-left h4, .experience-right h4{
