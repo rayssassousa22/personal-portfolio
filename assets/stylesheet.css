@@ -52,11 +52,12 @@ header a{
     list-style: none;
     margin-right: 2rem;
     padding: 1rem;
+    color: black;
     font-size: 1rem;
     font-weight: 600;
 }
 
-.navigation-links li:hover{
+.normal-header-hover li:hover{
     color:chocolate;
 }
 
