@@ -402,12 +402,14 @@ footer #destaque{
     font-weight: normal;
     font-weight: normal;
     font-size: 3rem;
-    margin-bottom: 10rem;
 }
 
 #bold-destaque{
     color: chocolate;
     font-weight: bold;
+}
+.agrupacao-info{
+    margin: 10rem 0;
 }
 
 .agrupacao-info, .my-resume{
