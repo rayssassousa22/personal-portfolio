@@ -64,7 +64,6 @@ header a{
 .moving-page{
     height: 90vh;
     display: flex;
-    background: url('assets/images/0cc78d97-bbef-4620-9116-bb9b7b598322.jpg');
     background-size: contain;
 }
 
@@ -148,7 +147,6 @@ main ul li{
 .profile-pic{
     width: 365px;
     height: 465px;
-    background: url('assets/images/profile-pic.png');
     background-size: cover;
     margin-left: 3rem;
     margin-top: -3rem;
