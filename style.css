@@ -64,7 +64,7 @@ header a{
 .moving-page{
     height: 90vh;
     display: flex;
-    background: url('/assets/images/0cc78d97-bbef-4620-9116-bb9b7b598322.jpg');
+    background-image: url('/assets/images/0cc78d97-bbef-4620-9116-bb9b7b598322.jpg');
     background-size: contain;
 }
 
