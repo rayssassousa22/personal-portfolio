@@ -9,6 +9,11 @@ body{
     line-height: 1.5rem;
 }
 
+*::selection{
+    background-color: chocolate;
+    color: black;
+}
+
 @font-face {
     font-family: raleway;
     src: url('assets/fonts/Raleway-VariableFont_wght.ttf');
@@ -62,7 +67,7 @@ header a{
 }
 
 .moving-page{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     background-size: contain;
 }
@@ -109,11 +114,13 @@ main ul li{
 
 .align-t-grid h1{
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    animation: typingHeader 10s infinite ease;
 }
 
 .align-t-grid p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 5px;
     font-weight: bold;
 }
@@ -142,6 +149,8 @@ main ul li{
     height: 450px;
     border: 15px solid rgba(210, 105, 30, 0.7);
     position: relative;
+    margin-top: 3rem;
+    animation: movingPic 5s ease;
 }
 
 .profile-pic{
@@ -261,8 +270,9 @@ main ul li{
     display: none;
 }
 
-.project-details p{
+.project-details p, .project-details h3, .project-details a{
     color: white;
+    text-decoration: none;
 } 
 
 .screenshot-project:hover > .project-details{
@@ -691,5 +701,73 @@ footer #destaque{
     }
     100%{
         background-position: 0 0;
+    }
+}
+
+@keyframes typingHeader{
+    0%{
+        color: black;
+        
+    }
+    10%{
+        color: red;
+        
+    }
+    20%{
+        color: greenyellow;
+    }        
+    30%{
+        color: lightpink;
+        
+    }
+    40%{
+        color: brown;
+        
+    }
+    50%{
+        color: deeppink;
+        
+    }
+    60%{
+        color: brown;
+        
+    }
+    70%{
+        color: lightpink;
+        
+    }
+    80%{
+        color: greenyellow;
+        
+    }
+    90%{
+        color: red;
+        
+    }
+    100%{
+        color: black;
+        
+    }
+}
+
+.agroup-service-card{
+    animation: enteringText 5s ease;
+}
+
+@keyframes movingPic {
+    0%{
+        transform: scale(0.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes enteringText{
+    0%{
+        transform: scale(0.1) translateY(100px);
+    }
+    100%{
+        transform: scale(1) translateY(0px);
     }
 }
