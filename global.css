@@ -189,3 +189,123 @@
         text-align: center;
     }
 }
+
+@media (max-width:900px){
+    .grid-01-align, .grid-02-align{
+        width: 100%;
+    }
+
+    .grid-02-align{
+        height: 10%;
+    }
+
+    .moving-page{
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .organize-about-content{
+        flex-direction: column;
+    }
+
+    .organize-profile-photo{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .profile-outline{
+        width: 300px;
+        height: 300px;
+    }
+
+    .profile-pic{
+        height: 300px;
+        width: 300px;
+        margin-top: -2rem;
+        margin-left: 2rem;
+    }
+
+    .organize-text-about{
+        margin: 0;
+        width: 70%;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .organize-text-about p{
+        width:100%;
+    }
+
+    main{
+        width: 100vw;
+    }
+
+    .grid-projects{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:800px){
+    nav{
+        display: none;
+    }
+
+    .drowpdown{
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn img{
+        width: 40px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .dropbtn{
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+        margin-right: 2rem;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        left: -200%;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-top: .5rem;
+    }
+
+    .dropdown-content a li{
+        color: chocolate;
+        padding: 1rem 1.5rem;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .dropdown-content a:hover{
+        background-color: chocolate;
+    }
+
+    .drowpdown:hover .dropdown-content{
+        display: block;
+    }
+
+    .organize-content{
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+    }
+
+    .organize-content h2{
+        margin: 1rem 0;
+        font-size: 4rem;
+    }
+}
