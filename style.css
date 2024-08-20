@@ -279,11 +279,12 @@ main ul li{
     display: block;
     transition: 2s linear;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 5%;
     background-color: rgba(233, 134, 63, 0.9);
     color: white;
-    width: 70%;
+    width: 7=80%;
+    height: 70%;
     padding: 1.5rem 1rem;
     -webkit-box-shadow: 26px 24px 38px -3px rgba(0,0,0,0.35);
 -moz-box-shadow: 26px 24px 38px -3px rgba(0,0,0,0.35);
@@ -770,4 +771,9 @@ footer #destaque{
     100%{
         transform: scale(1) translateY(0px);
     }
+}
+
+
+.drowpdown{
+    display: none;
 }
